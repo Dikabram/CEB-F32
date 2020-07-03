@@ -192,27 +192,30 @@ span {
 /* Feedback */
 
 .feedback-wrapper {
-    padding-top: 60px;
+    padding-top: 30px;
     background-color: #f0dede;
+    height: 450px;
+    margin-top: 0;
+}
+
+.feedback-wrapper h2 {
     text-align: center;
-    height: 600px;
+    font-size: 24px;
+}
+
+.feedback {
+    display: flex;
+    flex: auto;
 }
 
 .feed-back {
     border: 3px solid #dacdcd;
+    background-color: rgba(211, 179, 179, 1.1);
     border-radius: 5px;
-    float: right;
     padding-top: 10px;
-    width: 33%;
     text-align: center;
+    margin: 0 20px;
 }
-
-.heading {
-    padding: 50px 30px 20px 30px;
-    text-align: left;
-    color: #141414;
-}
-
 
 /* Footer */
 
