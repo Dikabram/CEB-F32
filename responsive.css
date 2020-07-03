@@ -1,37 +1,49 @@
 /*untuk tablet*/
 
-@media all and (max-width: 1000px) {}
+@media all and (max-width: 1000px) {
 
-.top-wrapper {
-    text-align: center;
-}
+    .top-wrapper {
+        text-align: center;
+    }
 
-.top-wrapper h1 {
-    font-size: 32px;
-    line-height: 35px;
-}
+    .top-wrapper h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
 
-.top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-}
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 
-.product-wrapper {
-    height: auto;
-}
+    .product-wrapper {
+        height: auto;
+    }
 
-.product {
-    flex-wrap: wrap;
-}
+    .product {
+        flex-wrap: wrap;
+    }
 
-.product-item {
-    width: 45%;
-    margin: 15px auto;
-    height: 280px;
-}
+    .product-item {
+        width: 45%;
+        margin: 15px auto;
+        height: 280px;
+    }
 
-.product-item img {
-    height: 85px;
+    .product-item img {
+        height: 85px;
+    }
+    .feedback-wrapper {
+        height: auto;
+    }
+    .feedback {
+        flex-wrap: wrap;
+    }
+    .feed-back {
+        width: 45%;
+        margin: 15px auto;
+        height: 280px;
+    }
 }
 
 
@@ -77,6 +89,17 @@
     }
     .product-item img {
         height: 100px;
+    }
+    .feedback-wrapper {
+        height: auto;
+    }
+    .feedback {
+        flex-direction: column;
+    }
+    .feed-back {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .footer {
         text-align: center;
