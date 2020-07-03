@@ -1,1 +1,84 @@
+/*untuk tablet*/
 
+@media all and (max-width: 1000px) {}
+
+.top-wrapper {
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.product-wrapper {
+    height: auto;
+}
+
+.product {
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 45%;
+    margin: 15px auto;
+    height: 280px;
+}
+
+.product-item img {
+    height: 85px;
+}
+
+
+/*untuk handphone*/
+
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        color: white;
+        display: block;
+    }
+    .top-wrapper {
+        text-align: center;
+    }
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .signup {
+        width: 100%;
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    .product-wrapper {
+        height: auto;
+    }
+    .product {
+        flex-direction: column;
+    }
+    .product-item {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .product-item img {
+        height: 100px;
+    }
+    .footer {
+        text-align: center;
+    }
+}
